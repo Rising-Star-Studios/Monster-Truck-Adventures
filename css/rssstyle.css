@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3 {
+	font-family: 'Oswald', Arial, sans-serif;
+}
+#logo {
+	margin: 0;
+	padding: 5px;
+}
+
+.navbar {
+	min-height: 100px;
+}
+.navbar-header {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-text {
+	font-family: 'Oswald', Arial, sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	color: #F4F4F4;
+	text-transform: uppercase;
+}
+.navbar-text li a {
+	color: #FFED4B;
+	background-color: transparent;
+	text-shadow: 2px 2px rgba(5,24,53,1.00);
+}
+.navbar-text li a:hover{
+	color: #FFFFFF;
+	background-color: transparent;
+	font-size: 24px;
+}
+
+.navbar-mta {
+	background-color: #0e64a6;
+  	border-bottom: 2px solid #094d80;
+	min-height: 100px;
+	margin-bottom: 0px;
+}
+.navbar-mta-low {
+	background-color: #60A4FF;
+  	border-color: #094d80;
+	padding-top: 50px;
+}
+.navtextsm {
+	font-size: 15px;
+	color: rgba(166,166,166,1.00);
+}
+
+.dvds .section h3 {
+	margin-top: 80px;
+}
+.menu {
+	background:linear-gradient(to bottom, #F8A812, #C88200);
+	border-bottom: 1px solid #FBDC3D;
+	min-height: 40px;
+}
+.menu ul{
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+
+}
+.menu ul li a:hover{
+	background-color: rgba(255,203,24,0.70);
+
+}
+.menu ul li img {
+	height: 120px;
+}
+.mainBtns {
+	margin-bottom: 40px;
+}
+#feedback {
+	background-color: #2678E7;
+	color: white;
+	padding: 10px;
+}
+#feedback:hover{
+	background-color: #628CFF;
+	text-decoration: none;
+}
+.jumbotron {
+	background: url(../images/Meteor_Friends.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+}
+.jumbotron h2 {
+	color: white;
+	font-size: 40px;
+	text-shadow: 3px 3px 7px rgba(37,37,37,0.77);
+}
+.jumbotron .col-md-12 {
+	background-color: rgba(255,255,255,0.80);
+	padding: 30px;
+}
+.mtaBtn:hover {
+	background-color: #599AF1;
+	text-decoration: none;
+	color: black;
+}
+.description {
+	font-family: 'Open Sans Condensed', Arial, sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+.gallery {
+	padding: 15px;
+}
+.bigtext {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+.categoryHdr {
+	font-weight: bold;
+	font-size:28px;
+}
+.redirect h1 {
+	margin-top:30px;
+}
+.redirect .row p{
+	padding-bottom: 50px;
+	font-size: 24px;
+}
+.redirect .row .col-md-6 {
+	padding: 90px;
+}
+.socialicon {
+	height: 25px;
+	width: 25px;
+	margin-right: 10px;
+}
+.socialtext {
+	font-size: 12px;
+	padding-left: 15px;
+	color: #6C6C6C;
+}
+.headerh2 {
+	padding-left: 15px;
+}
+
+.brands {
+	padding-top: 80px;
+}
+
+h4 {
+	font-family: 'Open Sans Condensed', Arial, sans-serif;
+	font-weight: 500;
+	font-size: 28px;
+}
+
+.light {
+	color: #fff;
+}
+
+.margins {
+	margin: 25px;
+}
+blockquote {
+	font-family: 'Open Sans Condensed', Arial, sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #4D4C4C;
+}
+.source {
+	font-style: italic;
+	font-family: 'Open Sans Condensed', Arial, sans-serif;
+	font-size: 18px;
+	text-align: right;
+}
+.bold {
+	font-weight: bold;
+}
+.funstuff {
+	background: url("http://www.monstertruckadventures.com/images/MatchCard_1.jpg") no-repeat center center;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+.activities {
+	padding: 50px;
+}
+.activities .btn {
+	margin-bottom: 50px;
+}
+.games img, .dropshadow {
+	box-shadow: 2px 2px 5px black;
+}
+.games {
+	padding: 50px;
+}
+#playmemory {
+	margin: 10px;
+}
+.toTop {
+	float: right;
+	position: fixed;
+	z-index: -1;
+}
+.dvdheader .row {
+	background-color: #FFE042;
+	min-height: 30px;
+	padding-top: 5px;
+}
+.dvdheader span {
+	font-weight: bold;
+	color: #085ED2;
+	text-transform: uppercase;
+	font-family: "montserrat", sans-serif;
+}
+.back-to-top {
+	width: 30px;
+	height:30px;
+	padding: 25px;
+	background-color: #B5CFF1;
+	border-radius: 5px;
+	z-index: 100px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	box-shadow: 2px 2px 5px black;
+}
+.back-to-top span {
+	position: relative;
+	top: -7px;
+	right: 7px;
+}
+.back-to-top:hover {
+	color: white;
+}
+.birthday {
+	padding: 25px;
+}
+.birthday .col-md-6 {
+	text-align: center;
+}
